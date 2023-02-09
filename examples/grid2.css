@@ -1,0 +1,23 @@
+body{
+    background-color: orange;
+
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.bottom{
+    grid-row: 1;
+    grid-column: 1/2;
+    z-index: 3;
+}
+.bottom img{
+    width: 100%;
+    
+}
+.top{
+    grid-row: 1;
+    grid-column: 1;
+    text-align: right;
+    z-index: 1;
+}
