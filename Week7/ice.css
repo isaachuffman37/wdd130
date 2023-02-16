@@ -1,0 +1,65 @@
+#gridcontainer {
+    display: grid;
+    grid-template-columns: 280px 2fr;
+    border: 2px solid;
+    border-radius: 25px;
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 80px;
+    z-index: 4;
+    overflow: hidden;
+}
+.x  {
+    text-align: right;
+    margin-right: 30px;
+}
+
+.class {
+    width: 500px;
+}
+.question {
+    font-size: 50px;
+    text-align: center;
+}
+
+.image {
+    /* border: 2px solid;
+    border-radius: 25px; */
+    width: 100%;
+    z-index: 3;
+}
+
+body {
+    background-color: black;
+    z-index: 3;
+}
+#textdiv{
+    
+}
+.button {
+    background-color: orange;
+    color: white;
+    border: 1px;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 20px;
+    margin: auto;
+}
+
+.description {
+    font-size: 24px;
+}
+.textbox{
+    width: 90%;
+    height: 8%;
+    border: 1;
+    border-radius: 5px;
+}
+#vehicle1{
+    text-align: left;
+}
+
+
+
+

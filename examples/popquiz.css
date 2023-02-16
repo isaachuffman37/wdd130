@@ -1,0 +1,36 @@
+h1{
+    font-size: 2em;
+}
+#nfl{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#hello {
+    font-size: 3em;
+    color: white;
+    background-color: blue;
+    margin: 0 auto;
+    text-align: center;
+}
+#cat{
+    width: 100%;
+    padding: 15px;
+    
+}
+#image{
+    margin: 50px;
+    background-color: lightgrey;
+    border: 2px solid black;
+    border-radius: 50px;
+    display: grid;
+    grid-template-columns: 1fr 350px;
+}
+#explain{
+    color: purple;
+}
+
+*{
+    box-sizing: border-box;
+}
