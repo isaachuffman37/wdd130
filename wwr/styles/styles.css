@@ -347,6 +347,7 @@ footer {
     grid-column: 1/2;
     grid-row: 2/3;
     text-indent: 50px;
+    margin-top: 0;
 }
 
 #blog-book-image{
