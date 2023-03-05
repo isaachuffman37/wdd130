@@ -288,11 +288,17 @@ footer {
     grid-template-columns: 1fr 1fr;
 }
 
+.blog-content{
+    line-height: 30px;
+    text-align: left;
+    font-size: 13pt;
+}
 
 .blog-images{
     max-width: 300px;
     border: solid 10px #76c893;
-    box-shadow: 5px 5px 10px #00000090
+    box-shadow: 5px 5px 10px #00000090;
+    
 }
 
 #blog-grid{
