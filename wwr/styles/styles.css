@@ -272,6 +272,77 @@ footer {
     transform: scale(1.1);
 }
 
+/* Below is the css for the subpage "blog" */
+
+
+
+
+
+
+
+
+
+
+
+#grid-blog{
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.blog-images{
+    max-width: 300px;
+    border: solid 10px #76c893;
+    box-shadow: 5px 5px 10px #00000090
+}
+
+#blog-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-family: Georgia, serif ;
+    font-family: "Nato Sans", Helvetica, sans-serif;
+}
+.blog-paragraph-title{
+    color: #168aad;
+    font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+    font-family: 'Brush Script MT', cursive;
+    font-family: "Kalam";
+    font-size: 18pt;
+
+}
+
+#blog-title{
+    color: #184e77;
+    font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+    font-family: 'Brush Script MT', cursive;
+    font-family: "Kalam";
+    font-size: 34pt;
+    text-align: center;
+    border: solid 5px;
+    background-color: white;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.blog-body{
+    background-color: #ddb892;
+}
+
+#book-now-link:hover{
+    background-color: #76c893;
+}
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
