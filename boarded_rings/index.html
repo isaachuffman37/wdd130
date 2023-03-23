@@ -4,6 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boarded Rings</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id = "content">
@@ -12,10 +13,13 @@
                 <img src="Images/boarded rings-logos.jpeg" alt="Boarded Rings Logo" class="logo">
             </a>
             <nav>
-                <a href="index.html">Home</a>
-                <a href="about_us.html">About Us</a>
-                <a href="rings.html">Our Rings</a>
-                <a href="customization.html">Customization</a> 
+                <!-- <a href="index.html" id="logo_link">
+                    <img src="Images/boarded rings-logos.jpeg" alt="Boarded Rings Logo" class="logo"> -->
+                </a>
+                <a href="index.html" class="navigation" id="home">Home</a>
+                <a href="about_us.html" class="navigation">About Us</a>
+                <a href="rings.html" class="navigation">Our Rings</a>
+                <a href="customization.html" class="navigation">Customization</a> 
             
             </nav>
     </header>
@@ -24,15 +28,17 @@
 
     <main>
         <section class="home_greeting">
-            <img src="Images/Optimized-isaac-plouzek-Hwah5mS-8ww-unsplash.jpg" alt="greeting image" id="welcome_image">
-            <p class="welcome_text"  id="main_header">Welcome to Boarded Rings</p>
-            <p class="welcome_text" id="main_text">Shop our hand-made rings <a href="rings.html">HERE</a></p>
+          <!--  <img src="Images/Optimized-isaac-plouzek-Hwah5mS-8ww-unsplash.jpg" alt="greeting image" id="welcome_image">  -->
+            <div class="overlay">
+                <p class="welcome_text"  id="main_header">Welcome to Boarded Rings</p>
+                <p class="welcome_text" id="main_text">Shop our hand-made rings <a href="rings.html" class="link" id="ring_link">HERE!</a></p>
+            </div>
         </section>
         
         <section class="home_custom">
             <img src="Images/shawn-henry-eK_aInAXydw-unsplash.jpg" alt="skating" id="home_custom_image">
             <p class="custom_text" id="home_custom_header">Have your own skateboard?</p>
-            <p class="custom_text" id="home_custom_link">You can have us make it into a ring <a href="customization.html">HERE</a></p>
+            <p class="custom_text" id="home_custom_link">Let us make it into a ring <a href="customization.html" class="link">HERE!</a></p>
 
 
         </section>
@@ -41,12 +47,12 @@
 
 
     <footer>
-        <p>Contact us<br>
+        <p id="copyright">Boarded Rings &copy; 2023</p>
+        <p id="contact_us_footer"><b>Contact us</b><br>
             Email: boardedrings@email.com<br>
             Phone: 555-555-5555
         </p>
-        <p>Boarded Rings &copy; 2023</p>
-        <a href="site-plan.html">Site Plan</a>
+        <a href="site-plan.html" id="plan_link">Site Plan</a>
     </footer>
     </div>
 </body>
