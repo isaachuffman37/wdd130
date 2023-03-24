@@ -43,12 +43,13 @@ header{
     display: grid;
     grid-template-columns: 150px auto;
     height: 125px;
+    border-bottom: solid 3px #1D3557;
 
 }
 
 .logo{
     width: 150px;
-    height: 125px;
+    height: 122;
     margin-left: 0px;
     margin-top: 0px;
     
@@ -87,6 +88,8 @@ header{
     color: #A8DADC;
     font-family: 'Finger Paint', cursive;
     padding-top: 50px;
+    text-shadow: 2px 2px 4px #1D3557;
+    
 }
 #main_text{
     grid-column: 1/2;
@@ -153,6 +156,7 @@ footer{
     justify-items: center;
     height: 100px;
     font-family: 'Lato', sans-serif;
+    border-top: solid 3px #1D3557;
 
 }
 
@@ -176,66 +180,121 @@ footer{
     font-family:  'Finger Paint', cursive;
     font-size: 40pt;
     margin-top: 30px;
+    text-shadow: 2px 2px 4px #A8DADC;
 }
 
 #ring_text{
     text-align: center;
     font-family:  'Lato', sans-serif;
-    font-size: 16pt;
+    font-size: 24pt;
     margin-top: 50px;
+    border-bottom: solid 3px #e2dde4;
+    padding-bottom: 50px;
 }
 
 .ring_grid_container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
+    max-width: 1500px;
 
 }
 
 .ring_image{
     max-width: 300px;
-    height: 175px;
+    height: 225px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
 }
 
 .ring{
-    margin-top: 50px;
+    margin-top: 75px;
+    margin-bottom: 75px;
 }
 
 #ring_1{
-    /* margin-left: 300px; */
-    margin-top: 50px;
+ box-shadow: 4px 4px 10px #00000070; 
+ border-radius: 7px; 
+ border: solid 3px #A8DADC; 
 }
 
 #ring_2{
-    /* margin-right: 300px; */
-    margin-top: 50px;
+    box-shadow: 4px 4px 10px #00000070; 
+    border-radius: 7px;
+    border: solid 3px #A8DADC; 
 }
 
 #ring_3{
-    /* margin-left: 300px; */
-    margin-bottom: 75px;
+    box-shadow: 4px 4px 10px #00000070; 
+    border-radius: 7px;
+    border: solid 3px #A8DADC; 
 }
 
 #ring_4{
-    /* margin-right: 300px; */
-    margin-bottom: 75px;
+    box-shadow: 4px 4px 10px #00000070; 
+    border-radius: 7px;
+    border: solid 3px #A8DADC;  
 }
 
 .ring_text{
     border: solid 3px #e2dde4;
     border-top: none;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
     padding-left: 5px;
     padding-bottom: 5px;
     padding-right: 5px;
     font-family: 'Lato', sans-serif;
-    max-width: 300px;    
+    max-width: 300px; 
+    margin-top: 10px;   
 }
 
-#ring_customization_prompt{
-    text-align: center;
+.custom_ring_grid_container{
+    display: grid;
+    grid-template-columns: 700px 1fr;
+    margin-bottom: 50px;
+    border-top: solid 3px #e2dde4;
+    padding-top: 50px;
+}
+
+#custom_question{
+    grid-column: 2/3;
+    grid-row: 1/2;
     margin-bottom: 75px;
     font-family: 'Lato', sans-serif ;
-    font-size: 13pt;
+    font-size: 30pt;
+    text-align: center;
+    margin-top: 200px;
+}
+
+#custom_prompt_image{
+    height: 600px;
+    width: 700px;
+    border-radius: 5px;
+    border: solid 5px #1D3557 ;
+}
+
+#custom_prompt_link{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-family: 'Lato', sans-serif ;
+    font-size: 20pt;
+    text-align: center;
+    margin-top: 300px;
+    border-radius: 0px;
+    height: 35px;
+    width: 425px;
+    margin-left: 200px;
+    border-left: solid 2px #1D3557 ;
+    border-right: solid 2px #1D3557;
+    /* box-shadow: 3px 3px 10px #00000070; */
+}
+
+#link{
+    text-decoration: none;
+    color:#E63946;
+}
+
+#link:hover{
+    text-decoration: underline #E63946;
 }
