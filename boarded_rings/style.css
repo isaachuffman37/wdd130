@@ -28,7 +28,9 @@ nav a {
     padding: 8px;
     font-size: 16pt;
     font-family: 'Lato', sans-serif;
-    font-weight: 600px;
+    border: solid 4px #A8DADC;
+    border-radius: 20px;
+    
     
 }
 
@@ -49,19 +51,14 @@ header{
 
 .logo{
     width: 150px;
-    height: 122;
+    height: 122px;
     margin-left: 0px;
     margin-top: 0px;
     border-right: solid 3px #E63946;
     
 }
-/* #home{
-    
-} */
+
 .home_greeting{
-    /* display: grid;
-    grid-template-columns: 1fr;
-    margin-top: 25px; */
     background: url("Images/Optimized-isaac-plouzek-Hwah5mS-8ww-unsplash.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -152,7 +149,6 @@ footer{
     color: #1D3557;
     background-color: #A8DADC;
     font-family: 'Crimson Text', serif;
-    font-weight: 600px;
     align-items: center;
     justify-items: center;
     height: 100px;
@@ -191,6 +187,9 @@ footer{
     margin-top: 50px;
     border-bottom: solid 3px #e2dde4;
     padding-bottom: 50px;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    line-height: 48px;
 }
 
 .ring_grid_container{
