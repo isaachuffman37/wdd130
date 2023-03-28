@@ -49,28 +49,48 @@
                 </ol>
             </div>
         </section>
-        <form action="" class="form">
-            <label for="name"></label>
-            <input type="text" value="Enter your name" name="name" id="name-box" class="input"><br>
-            <label for="email"></label>
-            <input type='email' value="Enter your email" name="email" id="email-box" class="input"><br>
-            <a href="" id="buttonLink">
-            <button type="button" id="button">Send request</button>
-            </a>
-        </form>
-        <!-- <div class="custom_options">
-            <h2 id="custom_options_header">Customization Options</h2>
-            <ol class="custom_options_list">
-                <li id="option1">
-                    
-                    Each ring has multiple layers of colors, so we can adjust the thickness and remove the top
-                    or bottom layers to only contain the colors you want.
-                    
-                </li>
-                <li id="option2">If you want a different width, just ask! We have three different thicknesses: "Thick"(12mm), "Normal"(10mm), and "Thin"(8mm).</li>
-                <li id="option3"><b>If you want to make your skateboard into a ring</b> we can do that too! Just contact us at 555-555-5555 or boardedrings@email.com for your preferences and pricing</li>
-            </ol>
-        </div> -->
+        <!-- <h1 id="form-title">Submit a Request Below!</h1> -->
+        <section class="form-container">
+            <div class="overlay2">
+                <!-- <img src="Images/Optimized-hans-isaacson-11kNCm9mEA0-unsplash.jpg" alt="custom image" id="form_image"> -->
+            </div>
+            <!-- <h1 id="form-title">Submit a Request Below!</h1> -->
+            <form class="form">
+                <h1 id="form-title">Submit a Request!</h1>
+                <label for="name" id="name_label">Name (first and last): </label>
+                <input type="text"  name="name" id="name-box" class="input"><br>
+
+                <label for="email" id="email_label">Email: </label>
+                <input type="email"  name="email" id="email-box" class="input"><br>
+
+                <label for="phone" id="phone_label">Phone Number: </label>
+                <input type="email"  name="phone" id="phone-box" class="input"><br>
+
+                <label for="ring">Which ring would you like to customize? </label>
+                <select name="ring" id="custom_ring_selection" >
+                <option value="choice">Select</option>
+                <option value="#1">#1</option>
+                <option value="#2">#2</option>
+                <option value="#3">#3</option>
+                <option value="#4">#4</option>
+                </select> <br>
+
+                <label for="widths">What is your desired width?</label>
+                <select name="widths" id="widths" >
+                <option value="select">Select</option>
+                <option value="12mm">12mm</option>
+                <option value="10mm">10mm</option>
+                <option value="8mm">8mm</option>
+                </select> <br>
+
+                <!-- <label for="requests">Any other requests: </label> -->
+                <div id="any">Any other requests: </div><br><textarea name="requests" id="requests" cols="30" rows="10" class="input"></textarea> <br>
+
+                <a href="" id="buttonLink">
+                <button type="button" id="button">Send request</button>
+                </a>
+            </form>
+        </section>
         
        
     </main>

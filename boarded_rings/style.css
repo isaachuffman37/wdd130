@@ -367,3 +367,126 @@ footer{
     font-size: 16pt;
     line-height: 35px;
 }
+
+#form-title{
+    text-align: center;
+    z-index: 2;
+    margin-bottom: -60px;
+    margin-top: 40px;
+    font-size: 30pt;
+    font-family: 'Finger Paint', cursive ;
+    color: #1D3557;
+}
+
+.form-container{
+    background: url("Images/jordan-mcqueen-88XM5Al3AXg-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 575px;
+    width: 100%;
+    margin: auto;
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin-bottom: 0px;
+    z-index: 1;
+    border-top: solid 3px #1D3557;
+}
+
+
+/* #form_image{
+    width: 800px;
+    grid-column: 1/2;
+    grid-row: 1/2; */
+    
+/* } */
+
+.form{
+    z-index: 1;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-bottom: -900px;
+    /* text-align: center; */
+    font-family: 'Lato', sans-serif;
+    font-size: 16pt;
+    font-weight: 500;
+}
+
+.overlay2{
+    background-color: rgba(255,255,255, 0.6);
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: relative;
+    height: 572px;
+}
+
+
+#button{
+    color: #e2dde4;
+    padding: 5px;
+    font-size: 14pt;
+    background-color: #1D3557;
+    margin-left: 170px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#button:hover{
+    background-color: #A8DADC;
+    color: #1D3557;
+}
+
+ label{
+    margin-left: 0;
+    
+ }
+
+ .input{
+    width: 250px;
+    margin-right: 0;
+    height: 25px;
+ }
+
+ #name-box{
+    margin-top: 100px;
+}
+
+#email-box{
+    margin-top: 15px;
+}
+
+#phone-box{
+    margin-top: 15px;
+}
+
+#custom_ring_selection{
+    margin-top: 15px;
+    padding: 5px;
+}
+
+#requests{
+    height: 110px;
+    width: 250px;
+    margin-left: 100px;
+    
+    /* margin-left: 200px;
+    margin-top: -25px; */
+}
+#widths{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+#phone_label{
+    margin-right: 44px;
+}
+#email_label{
+    margin-right: 134px;
+}
+#any{
+    margin-left: 130px;
+    margin-bottom: -20px;
+}
