@@ -25,7 +25,7 @@ nav a {
     text-align: center;
     color: #1D3557;
     text-decoration: none;
-    padding: 8px;
+    padding: 15px 28px;
     font-size: 16pt;
     font-family: 'Lato', sans-serif;
     border: solid 4px #A8DADC;
@@ -300,10 +300,10 @@ footer{
 #custom_page_header{
     text-align: center;
     font-size: 40pt;
-    margin-top: 20px;
+    margin-top: 60px;
     font-family:  'Finger Paint', cursive;
     color:#1D3557;
-    text-shadow: 2px 2px 4px #E63946;
+    text-shadow: 2px 2px 4px #A8DADC;
 
 }
 
@@ -381,7 +381,8 @@ footer{
     background-size: cover;
     height: 575px;
     width: 100%;
-    margin: auto;
+    margin-top: 90px;
+    /* margin: auto; */
     display:grid;
     grid-template-columns: 1fr;
     justify-items: center;
@@ -396,7 +397,7 @@ footer{
     z-index: 1;
     grid-column: 1/2;
     grid-row: 1/2;
-    margin-bottom: -900px;
+    margin-bottom: -650px;
     font-family: 'Lato', sans-serif;
     font-size: 16pt;
     font-weight: 500;
